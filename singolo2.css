@@ -82,6 +82,9 @@ a{
     top: 30px;
     margin-bottom: 18px;
 }
+.portfolio-item:nth-child(n+13){
+    display: none;
+}
 .about-us{
     height: 660px;
     padding-top: 68px;
