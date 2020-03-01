@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Lato";
+    src: url("assets/fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("assets/fonts/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "Lato-Light";
+    src: url("assets/fonts/Lato-Light.ttf");
+}
+*{
+    font-family: "Lato", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.portfolio{
+    height: 796px;
+    padding-top: 68px;
+    border-bottom: solid 6px #323746;
+    background-color: #2d303a;
+}
+.portfolio-title{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-Bold";
+    font-weight: 900;
+}
+.portfolio-text{
+    margin: 0;
+    width: 940px;
+    margin-top: 27px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: 'Lato-Light';
+    text-align: justify;
+    font-weight: 300;
+}
+.portfolio-buttons{
+  position: relative;
+  top: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 289px;
+}
+.button{
+  height: 22px;
+  border-radius: 5px;
+  letter-spacing: -.2px;
+  background-color: #2d303a;
+  border: 1px solid #767e9e;
+  font-size: 12px;
+  line-height: 18px;
+  color: #767e9e;
+  font-family: "Lato";
+}
+.button:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+.portfolio-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio-item{
+    position: relative;
+    top: 30px;
+    margin-bottom: 18px;
+}
+.about-us{
+    height: 660px;
+    padding-top: 68px;
+    border-bottom: solid 6px #fff;
+    background-color: #f2f2f2;
+}
+.about-us-title{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-Bold";
+    font-weight: 900;
+}
+.about-us-text{
+    margin: 0;
+    width: 940px;
+    margin-top: 27px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: 'Lato-Light';
+    text-align: justify;
+    font-weight: 300;
+    text-align: justify;
+}
+.about-us-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-us-pic{
+    position: relative;
+    top: 45px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+}
+.about-us-item-title{
+    position: relative;
+    top:63px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-Bold";
+    font-weight: 900;
+}
+.about-us-item-text{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 72px;
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+}
+.social{
+    position: relative;
+    top: 94px;
+    width: 160px;
+}
+.social a{
+    margin-right: 4.91px;
+}
+
+
