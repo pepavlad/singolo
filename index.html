@@ -7,18 +7,18 @@
     <title>Singolo</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body id="home">
     <header>
         <div class="container">
             <div class="header">
-            <h1><a href="#">singolo</a></h1>
-                <nav>
+                <h1>singolo</h1>
+                <nav class="menu">
                     <ul>
-                        <li class="nav-item"><a href="#">home</a></li>
-                        <li class="nav-item"><a href="#">services</a></li>
-                        <li class="nav-item"><a href="#">portfolio</a></li>
-                        <li class="nav-item"><a href="#">about</a></li>
-                        <li class="nav-item"><a href="#">contact</a></li>
+                        <li class="nav-item"><a href="#home" class="link active-link" id="home-link">home</a></li>
+                        <li class="nav-item"><a href="#services" class="link" id="services-link">services</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="link" id="portfolio-link">portfolio</a></li>
+                        <li class="nav-item"><a href="#about" class="link" id="about-link">about</a></li>
+                        <li class="nav-item"><a href="#contact" class="link" id="contact-link">contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -27,24 +27,48 @@
     <main>
         <div class="slider">
             <div class="container">
-                        <div class="slider-item">
-                            <div class="phone-vertical">
-                                <img src="assets/vertical.png" alt="phone">
+                <div class="carousel">
+                    <div class="items-container">
+                        <div class="item active">
+                            <div class="phones-1">
+                                <div class="phone-vertical">
+                                    <img src="assets/vertical.png" alt="phone">
+                                    <div class="screen screen-off-ver"></div>
+                                    <div class="phone-btn phone-button-ver"></div>
+                                </div>
+                                <div class="phone-horizontal">
+                                    <img src="assets/horizontal.png" alt="phone">
+                                    <div class="screen screen-off-hor"></div>
+                                    <div class="phone-btn phone-button-hor"></div>
+                                </div>
                             </div>
-                            <div class="phone_horizontal">
-                                <img src="assets/horizontal.png" alt="phone">
+                        </div>
+                        <div class="item">
+                            <div class="phones-2">
+                                <div class="phone-vertical">
+                                    <img src="assets/vertical.png" alt="phone">
+                                </div>
+                                <div class="phone-vertical">
+                                    <img src="assets/vertical.png" alt="phone">
+                                    <div class="screen screen-off-ver"></div>
+                                    <div class="phone-btn phone-button-ver"></div>
+                                </div>
+                                <div class="phone-vertical">
+                                    <img src="assets/vertical.png" alt="phone">
+                                </div>
                             </div>
-                             
                         </div>
-                        <div class="prev">
-                            <img src="assets/prev.png" alt="arrow-left">
-                        </div>
-                        <div class="next">
-                            <img src="assets/next.png" alt="arrow-right">
-                        </div>
-                        
+                    </div>
+                    <div class="control left">
+                      <div class="arrow left"><img src="assets/prev.png" alt=""></div>
+                    </div>
+                    <div class="control right">
+                      <div class="arrow right"><img src="assets/next.png" alt=""></div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div id="services"></div>
         <div class="services">
             <div class="container">
                     <div class="services-title">Our Services</div>
@@ -121,6 +145,7 @@
                 </div>
             </div>
         </div>
+        <div id="portfolio"></div>
         <div class="portfolio">
             <div class="container">
                 <div class="portfolio-title">Portfolio</div>
@@ -128,75 +153,53 @@
                     Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
                 </p>
                 <div class="portfolio-buttons">
-                    <button class="button">All</button>
+                    <button class="button active-btn">All</button>
                     <button class="button">Web Design</button>
                     <button class="button">Graphic Design</button>
                     <button class="button">Artwork</button>
                 </div>
                 <div class="portfolio-wrap">
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project1.png" alt="project">
-                        </div>
+                        <img src="assets/Project1.png" class="portfolio-pic" alt="project">
+                    
+                    </div>
+                    <div class="portfolio-item">  
+                        <img src="assets/Project2.png"class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project2.png" alt="project">
-                        </div>
+                        <img src="assets/Project3.png"class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project3.png" alt="project">
-                        </div>
+                        <img src="assets/Project4.png"class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project4.png" alt="project">
-                        </div>
+                        <img src="assets/Project5.png"class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project5.png" alt="project">
-                        </div>
+                        <img src="assets/Project6.png" class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project6.png" alt="project">
-                        </div>
+                            <img src="assets/Project7.png" class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project7.png" alt="project">
-                        </div>
+                        <img src="assets/Project8.png" class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project8.png" alt="project">
-                        </div>
+                        <img src="assets/Project9.png" class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project9.png" alt="project">
-                        </div>
+                        <img src="assets/Project10.png" class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project10.png" alt="project">
-                        </div>
+                        <img src="assets/Project11.png" class="portfolio-pic" alt="project">
                     </div>
                     <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project11.png" alt="project">
-                        </div>
-                    </div>
-                    <div class="portfolio-item">
-                        <div class="portfolio-pic">
-                            <img src="assets/Project12.png" alt="project">
-                        </div>
+                        <img src="assets/Project12.png" class="portfolio-pic" alt="project">
                     </div>
                 </div>
             </div>
         </div>
+        <div id="about"></div>
         <div class="about-us">
             <div class="container">
                 <div class="about-us-title">About Us</div>
@@ -281,27 +284,37 @@
                 </div>
             </div>
         </div>
+        <div id="contact"></div>
         <div class="get-a-quote">
             <div class="container">
                 <div class="get-a-quote-wrap">
-                    <div class="get-a-quote-title">Get A Quote</div>
+                    <div class="get-a-quote-title">Get a Quote</div>
                     <p class="get-a-quote-text"> 
                         Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. 
                         Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
                         Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. 
                     </p>
                     <div class="form">
-                        <form action="#" method="post" class="get-a-quote-form">
+                        <form action="#" method="post" class="get-a-quote-form" onsubmit="return false;">
                             <fieldset id="get-a-quote">
                             <div class="form">
-                                <input type="text" placeholder="Name (Required)" required>
-                                <input type="email" placeholder="Email (Required)" required>
-                                <input type="text" placeholder="Subject">
-                                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Describe your project in detail..."></textarea>
-                                <button type="submit" class="form-button">send</button>
+                                <input type="text" placeholder="Name (Required)" id="name" required>
+                                <input type="email" placeholder="Email (Required)" id="email" required >
+                                <input type="text" placeholder="Subject" id="subject">
+                                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Describe your project in detail..." class="description" maxlength="350"></textarea>
+                                <button type="submit" class="form-button" id="form-btn">send</button>
                             </div>
                             </fieldset>
                         </form>
+                        <div class="modal" id="modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <p>The letter was sent</p>
+                                <p id="modal-subj"></p>
+                                <p id="modal-descr"></p>
+                                <button id="modal-btn">OK</button>
+                            </div>
+                        </div>
                     </div>
                     <div class="contact-information">
                         <div class="contact-information-title">Contact Information</div>
@@ -318,8 +331,8 @@
                             </div>
                             <div class="contact-text">
                                 <p>Elm St. 14/05 Lost City</p>
-                                <p>03528 331 86 35</p>
-                                <p>info@singolo.com</p>
+                                <p><a href="tel:035283318635">03528 331 86 35</a></p>
+                                <p><a href="mailto:info@singolo.com">info@singolo.com</a></p>
                             </div>
                         </div>
                     </div> 
@@ -329,7 +342,7 @@
     </main>
     <footer>
         <div class="container">
-            <div class="copyright">© Copyright 2013 by PSDchat</div>
+            <div class="copyright">© Copyright 2013</div>
             <div class="social-img">
                 <a href="#">
                     <img src="assets/facebook.svg" alt="facebook">
@@ -346,5 +359,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
